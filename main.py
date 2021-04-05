@@ -2,7 +2,6 @@
 from github import Github
 
 g = Github("access_token")
-g = Github(base_url="https://{hostname}/api/v3", login_or_token="access_token")
 
 
 # repo = g.get_repo("Repo Name") ex.("emda19/comp370-group-activity-week9")
