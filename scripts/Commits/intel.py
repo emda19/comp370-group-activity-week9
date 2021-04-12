@@ -8,7 +8,7 @@ from datetime import date
 from operator import itemgetter
 
 g = Github("access_token")
-g = Github("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")
+g = Github("")      #add access token here
 repo = g.get_repo("paholg/typenum")
 commits_issued = repo.get_commits()
 
